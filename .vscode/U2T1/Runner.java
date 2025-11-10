@@ -1,5 +1,3 @@
-package U2L1;
-
 import java.util.Scanner;
 
 public class Runner {
