@@ -22,7 +22,7 @@ public class SelectionMadness {
             return "extremely bad luck";
         }
         return "mediocre luck";
-    } 
+    }
 
     /*
      * Returns the largest of three provided integers: num1, num2, or num3
@@ -41,5 +41,25 @@ public class SelectionMadness {
                 return num3;
             }
         }
+    }
+
+    public boolean rightTriangle(int side1, int side2, int side3) {
+        int number = largest(side1, side2, side3);
+        if (side1 == number) {
+            if (Math.pow(side2, 2) + Math.pow(side3, 2) == Math.pow(side1, 2)) {
+                return true;
+            }
+            return false;
+        }
+        if (side2 == number) {
+            if (Math.pow(side1, 2) + Math.pow(side3, 2) == Math.pow(side2, 2)) {
+                return true;
+            }
+            return false;
+        }
+        if (Math.pow(side1, 2) + Math.pow(side2, 2) == Math.pow(side3, 2)) {
+            return true;
+        }
+        return false;
     }
 }
