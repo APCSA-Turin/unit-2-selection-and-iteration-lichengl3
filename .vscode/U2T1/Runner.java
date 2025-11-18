@@ -6,7 +6,7 @@ public class Runner {
         Scanner scan = new Scanner(System.in);
         System.out.println("Welcome to the Magic 8 Ball!");
         System.out.print("Enter a yes-no question and I will answer it: ");
-        String question = scan.nextLine();
+        scan.nextLine();
         scan.close();
 
         int number = (int) (Math.random() * 6 + 1);
