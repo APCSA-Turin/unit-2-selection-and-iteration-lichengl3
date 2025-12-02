@@ -12,6 +12,7 @@ public class Timer {
       System.out.println(counter);
       counter++;
     }
+    String thing = "things";
   }
 }
 
