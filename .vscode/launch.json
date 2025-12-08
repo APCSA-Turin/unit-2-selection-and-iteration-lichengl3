@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "NestedLoopsRunner",
+            "request": "launch",
+            "mainClass": "NestedLoopsRunner",
+            "projectName": "unit-2-selection-and-iteration-lichengl3_341ad95a"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "unit-2-selection-and-iteration-lichengl3_341ad95a"
+        },
+        {
+            "type": "java",
             "name": "StringLoopsRunner",
             "request": "launch",
             "mainClass": "StringLoopsRunner",
